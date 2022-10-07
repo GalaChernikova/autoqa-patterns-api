@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/d4xknjg8bg6k5cbx?svg=true)](https://ci.appveyor.com/project/GalaChernikova/autoqa-patterns-api)
