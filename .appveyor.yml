@@ -11,7 +11,7 @@ build: off
 
 install:
 
-  - java -jar app-ibank.jar -P:profile=test &
+  - java -jar ./artifacts/app-ibank.jar -P:profile=test &
 
 test_script:
   - chmod +x gradlew
