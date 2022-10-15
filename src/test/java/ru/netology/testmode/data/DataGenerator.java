@@ -29,7 +29,7 @@ public class DataGenerator {
 
         given()
                 .spec(requestSpec)
-                .body(new RegistrationDto(getRandomLogin(), getRandomPassword(), user.status))
+                .body(user)
                 .when()
                 .post("/api/system/users")
                 .then()
